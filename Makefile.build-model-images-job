@@ -1,7 +1,7 @@
 BUILD_WORKFLOW=build-image-and-push-using-docksock-wf.json
 MODEL_NAME=bby-precinct-1
-MODEL_VERSION=v1
-SEQ_HASH=b0acdb39
+MODEL_VERSION=v2
+SEQ_HASH=17381b81
 
 get_pods:
 	/bin/kubectl get pods -n default
