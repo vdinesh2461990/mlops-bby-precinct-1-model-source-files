@@ -8,7 +8,7 @@ class MLFlowModel(object):
     def __init__(self):
         
         
-        self.pyfunc_model = pyfunc.load_model("s3://ml-demo-dinesh/bestbuy/5ac56419e6764e53a25d2d2eadb7a737/artifacts")
+        self.pyfunc_model = pyfunc.load_model("s3://ml-demo-dinesh/bestbuy/01011b2e58194bd58d160fdeebd315e2/artifacts/model")
 
     def predict(self,X,features_names):
         if not features_names is None and len(features_names)>0:
